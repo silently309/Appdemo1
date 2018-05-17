@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login_title">Archer</string>
+    <string name="login_name">LOGIN</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="home_name">Home Page</string>
+    <string name="bottom_homename">Home</string>
+    <string name="bottom_activities">Activities</string>
+    <string name="bottom_addlistings">Add Listings</string>
+    <string name="bottom_notifications">Notifications</string>
+    <string name="bottom_others">Others</string>
+    <string name="newlistingnearyou">New Listing Near You</string>
+</resources>

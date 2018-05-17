@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+    <FrameLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorPrimary"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_name"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorHomeName"
+                android:textSize="35sp"
+                android:layout_marginStart="30dp"
+                android:fontFamily="@font/montserratbold"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/home_search" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+   <FrameLayout
+       android:id="@+id/fragment_container"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@id/header"
+       android:layout_above="@id/footer"
+       android:background="#ffffff">
+   </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <LinearLayout android:id="@+id/btn_home"
+            style="@style/style_footerhome">
+            <ImageView
+                android:id="@+id/img_home"
+                style="@style/style_imgfooterhome"
+                android:src="@drawable/home_bottom_hl3x" />
+            <TextView
+                style="@style/style_textfooterhome"
+                android:text="@string/home_name"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/btn_activities"
+            style="@style/style_footerhome">
+
+            <ImageView
+                android:id="@+id/img_activities"
+                android:src="@drawable/activity_bottom3x"
+                style="@style/style_imgfooterhome"/>
+            <TextView
+                style="@style/style_textfooterhome"
+                android:text="@string/bottom_activities"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/btn_addlistings"
+            style="@style/style_footerhome">
+            <ImageView
+                android:id="@+id/img_addlistings"
+                android:src="@drawable/add_bottom3x"
+                style="@style/style_imgfooterhome"/>
+            <TextView
+                style="@style/style_textfooterhome"
+                android:text="@string/bottom_addlistings"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/btn_notifications"
+            style="@style/style_footerhome">
+            <ImageView
+                android:id="@+id/img_notifications"
+                android:src="@drawable/notify_bottom3x"
+                style="@style/style_imgfooterhome"/>
+            <TextView
+                style="@style/style_textfooterhome"
+                android:text="@string/bottom_notifications"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/btn_others"
+            style="@style/style_footerhome">
+            <ImageView
+                android:id="@+id/img_others"
+                android:src="@drawable/more_bottom3x"
+                style="@style/style_imgfooterhome"
+                 />
+            <TextView
+                style="@style/style_textfooterhome"
+                android:text="@string/bottom_others"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Divider">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/colorTitle</item>
+    </style>
+    <style name="Divider2">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">#DADADA</item>
+    </style>
+    <style name="style_footerhome">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginEnd">9dp</item>
+        <item name="android:layout_marginStart">9dp</item>
+    </style>
+    <style name="style_imgfooterhome">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">30dp</item>
+    </style>
+    <style name="style_textfooterhome">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:layout_marginTop">7dp</item>
+    </style>
+
+</resources>

@@ -1,2 +1,2 @@
-# Appdemo1
-android studio Training
+# AppDemo
+Training Android studio
